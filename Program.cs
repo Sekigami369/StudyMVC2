@@ -4,7 +4,7 @@ using StudyMVC2.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<StudyMVC2Context>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("StudyMVC2Context") ?? throw new InvalidOperationException("Connection string 'StudyMVC2Context' not found.")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
