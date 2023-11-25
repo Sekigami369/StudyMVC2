@@ -20,6 +20,12 @@ namespace StudyMVC2.Controllers
         }
 
         // GET: People
+
+        public IActionResult Show()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> Index()
         {
               return _context.Person != null ? 

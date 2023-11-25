@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\image\\Sunflowers.jpg",
+      "PackagePath": "staticwebassets\\image\\Sunflowers.jpg"
+    },
+    {
       "Id": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

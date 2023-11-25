@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3p1MQDf6/560EM7wJWPbDmhb7IafZP5SQfaO8AFICcE=",
+  "Hash": "Nafum+kT3IWCCcvJcEc87WxYehmmK0tjJ1qSeqDM5aE=",
   "Source": "StudyMVC2",
   "BasePath": "_content/StudyMVC2",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\image\\Sunflowers.jpg",
+      "SourceId": "StudyMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\",
+      "BasePath": "_content/StudyMVC2",
+      "RelativePath": "image/Sunflowers.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Sunflowers.jpg"
     },
     {
       "Identity": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\js\\site.js",
