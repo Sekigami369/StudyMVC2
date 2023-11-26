@@ -15,5 +15,7 @@ namespace StudyMVC2.Data
         }
 
         public DbSet<Person> Person { get; set; } = default!;
-    }
+
+        public DbSet<Photo> Photos { get; set; } = default!;
+    }//参照先でPhotosを呼び出す
 }

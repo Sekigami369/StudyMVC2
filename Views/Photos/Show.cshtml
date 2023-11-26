@@ -1,0 +1,29 @@
+﻿@model IEnumerable<StudyMVC2.Models.Photo>
+
+@{
+    ViewData["Title"] = "ShowDisplay";
+}
+
+<h1>ShowDisplay</h1>
+
+
+<div>
+    <h4>ひまわりの画像</h4>
+    <img src="~/image/Sunflowers.jpg" alt="SunFlowers" />
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
