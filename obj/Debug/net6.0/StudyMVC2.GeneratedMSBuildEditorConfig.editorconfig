@@ -44,6 +44,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/skgmy/source/repos/StudyMVC2/Views/Photos1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zMVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skgmy/source/repos/StudyMVC2/Views/Photos1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zMVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skgmy/source/repos/StudyMVC2/Views/Photos1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zMVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skgmy/source/repos/StudyMVC2/Views/Photos1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zMVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skgmy/source/repos/StudyMVC2/Views/Photos1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zMVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/skgmy/source/repos/StudyMVC2/Views/Photos/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXFNob3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
