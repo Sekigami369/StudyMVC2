@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudyMVC2.Data;
 using StudyMVC2.Models;
@@ -21,13 +16,13 @@ namespace StudyMVC2.Controllers
 
         // GET: People
 
-       
+
 
         public async Task<IActionResult> Index()
         {
-              return _context.Person != null ? 
-                          View(await _context.Person.ToListAsync()) :
-                          Problem("Entity set 'StudyMVC2Context.Person'  is null.");
+            return _context.Person != null ?
+                        View(await _context.Person.ToListAsync()) :
+                        Problem("Entity set 'StudyMVC2Context.Person'  is null.");
         }
 
         // GET: People/Details/5
@@ -153,14 +148,14 @@ namespace StudyMVC2.Controllers
             {
                 _context.Person.Remove(person);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PersonExists(int id)
         {
-          return (_context.Person?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Person?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

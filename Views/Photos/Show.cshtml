@@ -1,4 +1,4 @@
-﻿@model IEnumerable<StudyMVC2.Models.Photo>
+﻿@model IEnumerable<Photo>
 
 @{
     ViewData["Title"] = "ShowDisplay";
@@ -22,20 +22,11 @@
                 @Html.DisplayNameFor(model => model.PhotoPath)
             </th>
         </tr>
-    </thead>
+    </thead>     
+    </table>
     <tbody>
-        @foreach(var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.PhotoPath)
-                </td>
-            </tr>
-        }
-        <div>
+       
+<div>
     <a asp-action="Index">Back to List</a>
 </div>
 

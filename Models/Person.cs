@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace StudyMVC2.Models;
+﻿namespace StudyMVC2.Models;
 
 public partial class Person
 {

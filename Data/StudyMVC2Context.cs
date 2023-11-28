@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using StudyMVC2.Models;
+
 
 namespace StudyMVC2.Data
 {
@@ -17,5 +14,5 @@ namespace StudyMVC2.Data
         public DbSet<Person> Person { get; set; } = default!;
 
         public DbSet<Photo> Photos { get; set; } = default!;
-    }//参照先でPhotosを呼び出す
+    }
 }

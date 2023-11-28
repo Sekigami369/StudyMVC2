@@ -13,7 +13,7 @@ namespace StudyMVC2.Controllers
             _logger = logger;
         }
 
-       
+
         public IActionResult Welcome()
         {
             return View();

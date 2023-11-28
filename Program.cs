@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using StudyMVC2.Data;
 
 var builder = WebApplication.CreateBuilder(args);
