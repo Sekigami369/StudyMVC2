@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\image\\FE_R04A-H23S.zip",
+      "PackagePath": "staticwebassets\\image\\FE_R04A-H23S.zip"
+    },
+    {
+      "Id": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\image\\RosePict.jpg",
+      "PackagePath": "staticwebassets\\image\\RosePict.jpg"
+    },
+    {
       "Id": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\wwwroot\\image\\Sunflowers.jpg",
       "PackagePath": "staticwebassets\\image\\Sunflowers.jpg"
     },

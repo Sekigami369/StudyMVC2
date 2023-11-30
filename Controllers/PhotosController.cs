@@ -15,17 +15,14 @@ namespace StudyMVC2.Controllers
         }
 
 
-        public IActionResult Show()
-        {
-            return View();
-        }
-
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Show()
         {
             return _context.Photos != null ?
-                View(await _context.Photos.ToListAsync()) :
-                Problem("Entity set 'Study.Photos' is null.");
+               View(await _context.Photos.ToListAsync()) :
+               Problem("Entity set 'Study.Photos' is null.");
         }
+
+       
 
     }
 }

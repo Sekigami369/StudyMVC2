@@ -22,9 +22,26 @@
                 @Html.DisplayNameFor(model => model.PhotoPath)
             </th>
         </tr>
+
     </thead>     
     </table>
     <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>            
+        </tr>
+        <tr>
+            <th>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhotoPath)
+            </td>
+            </th>
+        </tr>
+    }
+</tbody>
        
 <div>
     <a asp-action="Index">Back to List</a>
