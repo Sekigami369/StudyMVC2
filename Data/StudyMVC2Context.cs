@@ -14,5 +14,7 @@ namespace StudyMVC2.Data
         public DbSet<Person> Person { get; set; } = default!;
 
         public DbSet<Photo> Photos { get; set; } = default!;
+
+        public DbSet<Login> Logins { get; set; }
     }
 }
