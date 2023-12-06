@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudyMVC2.Data;
+using StudyMVC2.Models;
+using System.Diagnostics;
+using System.Security.Cryptography;
 
 namespace StudyMVC2.Controllers
 {
@@ -17,11 +20,28 @@ namespace StudyMVC2.Controllers
             return View();
         }
 
-        public async Task<IActionResult> VerificationAsync()
+        [HttpPost]
+        public IActionResult Login(Login login)
         {
-            return _context.Photos != null ?
-               View(await _context.Logins.ToListAsync()) :
-               Problem("Entity set 'Study.Photos' is null.");
+
+
+
+            return View(login);
         }
+
+
+        private bool IsValidCheckUser(string loginID,  string password)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+
+                return true;
+            }
+            return false;
+
+            //ログインの検証方法をここに書く
+
+        }
+
     }
 }
