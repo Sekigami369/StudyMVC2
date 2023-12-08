@@ -5,15 +5,21 @@
 
 
 <h1>Plese Login</h1>
-
-<form method="post" action="/LoginsController/Verification">
-    <label for="UserName">ユーザーネーム：</label>
-    <input type="text" id="UserName" name="UserName" value=""/>
+@using (Html.BeginForm("Verification", "Logins", FormMethod.Post))
+{
+    <label for="UserName">ユーザーネーム</label>
+    <input type="text" id="UserName" name="User" value=""/>
 
     <label for="Password">パスワード</label>
-    <input type="password" name="Password" value=""/>
+    <input type="password", name="Password" value=""/>
 
     <button type="submit">Login</button>
-</form>
+
+}
+<h2>
+    新規ユーザー登録：@*テキスト         メソッド　　コントローラー*@                   
+    @Html.ActionLink("新規ユーザー登録", "Register", "Logins", null, new { @class = "btn btn-primary" })
+
+</h2>
 
 

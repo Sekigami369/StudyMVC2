@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RoawEleC2cVHY724jxr5dpTutH46iYVHhkNKTmS1WZb4Lq00EUSUSbqwG/dIa4AxaL2el6pXqOcgt+75yq8LNA==",
+  "dgSpecHash": "cstYUQgzJZV1r1gKGvC5lpfmuUQ8+E0NhL4EGHDDtNfP8Tn/u0DyxMV4NWFxpw28yougNfgpHxSvWwgHFVx5Jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\skgmy\\source\\repos\\StudyMVC2\\StudyMVC2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skgmy\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\skgmy\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\skgmy\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
+    "C:\\Users\\skgmy\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\skgmy\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\skgmy\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\skgmy\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
