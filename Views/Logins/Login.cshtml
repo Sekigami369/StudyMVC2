@@ -5,7 +5,7 @@
 
 
 <h1>Plese Login</h1>
-@using (Html.BeginForm("Verification", "Logins", FormMethod.Post))
+@using (Html.BeginForm("IsValidCheckUser", "Logins", FormMethod.Post))
 {
     <label for="UserName">ユーザーネーム</label>
     <input type="text" id="UserName" name="User" value=""/>
@@ -15,6 +15,12 @@
 
     <button type="submit">Login</button>
 
+}
+
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p style="color: red;">@ViewBag.ErrorMessage</p>
 }
 <h2>
     新規ユーザー登録：@*テキスト         メソッド　　コントローラー*@                   

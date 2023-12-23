@@ -59,7 +59,9 @@ namespace StudyMVC2.Controllers
             if (ModelState.IsValid)
             {
                 _context.Add(person);
+                //AddメソッドでDBにトラッキングを追加される
                 await _context.SaveChangesAsync();
+                //挿入の実行をここでしている                  
                 return RedirectToAction(nameof(Index));
             }
             return View(person);
