@@ -33,9 +33,9 @@ namespace StudyMVC2.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (person == null)
+                var person = await _context.Person.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (person == null) 
             {
                 return NotFound();
             }

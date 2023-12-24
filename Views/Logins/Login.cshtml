@@ -8,10 +8,10 @@
 @using (Html.BeginForm("IsValidCheckUser", "Logins", FormMethod.Post))
 {
     <label for="UserName">ユーザーネーム</label>
-    <input type="text" id="UserName" name="User" value=""/>
+    <input type="text" id="UserName" name="Inputuser" value=""/>
 
     <label for="Password">パスワード</label>
-    <input type="password", name="Password" value=""/>
+    <input type="password" id="Password", name="Inputpassword" value=""/>
 
     <button type="submit">Login</button>
 

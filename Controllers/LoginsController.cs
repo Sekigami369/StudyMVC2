@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudyMVC2.Data;
-using StudyMVC2.Models;
-using System.Diagnostics;
-using System.Security.Cryptography;
+
 
 namespace StudyMVC2.Controllers
 {
@@ -20,35 +18,34 @@ namespace StudyMVC2.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Login(Login login)
+              
+        private async Task<IActionResult> IsValidCheckUser(string inputUserName, string inputPassword)
         {
-            return View(login);
+            var authentication_Name = _context.Logins
+                .FirstOrDefaultAsync(m => m.UserName == inputUserName);
+
+            if (inputUserName == null || inputPassword == null)
+            {
+                return BadRequest("ユーザー名または、パスワードが入力されていません。"); 
+            }
+            var hashedPassword = HashPassWord(inputPassword, User.Salt);//saltはハッシュ化するときの値
+            {
+                return View("Welcome");
+            }
+           
+            return View();
         }
 
-       
-        public IActionResult IsValidCheckUser(string loginID,  string password)
+
+        private string HashPassWord(string inputPassword , string salt)
         {
-            if()
-            {
-                return RedirectToAction("Success");
-            }
+            //入力kされた平文のパスワードをハッシュ化して認証用のメソッドに渡す
+
+            var hashedPassword = 
+
+            return hashedPassword;
+
         }
-
-        private async bool LoginIsValid(String UserName,  String Password)
-        {
-            try
-            {
-
-
-                var login = await  _context.Logins.FirstOrDefaultAsync();
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
         /*
          * ChatGPDから参考資料として張り付けてある
          * 
