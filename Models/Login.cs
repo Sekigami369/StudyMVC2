@@ -7,7 +7,7 @@ namespace StudyMVC2.Models
         public int Id { get; set; }
 
         [Display(Name = "UserName")]
-        [Required(ErrorMessage ="UserNameは必須です。")]
+        [Required(ErrorMessage = "UserNameは必須です。")]
         public string UserName { get; set; }
 
 

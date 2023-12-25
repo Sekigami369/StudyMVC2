@@ -22,7 +22,7 @@ namespace StudyMVC2.Controllers
                Problem("Entity set 'Study.Photos' is null.");
         }
 
-       
+
 
     }
 }
